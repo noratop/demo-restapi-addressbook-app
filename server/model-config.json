@@ -33,23 +33,23 @@
     "public": false
   },
   "AddressBook": {
-    "dataSource": "db",
+    "dataSource": "addressBookDB",
     "public": true
   },
   "Entry": {
-    "dataSource": "db",
+    "dataSource": "addressBookDB",
     "public": true
   },
   "Address": {
-    "dataSource": "db",
+    "dataSource": "addressBookDB",
     "public": true
   },
   "Phone": {
-    "dataSource": "db",
+    "dataSource": "addressBookDB",
     "public": true
   },
   "EmailAddress": {
-    "dataSource": "db",
+    "dataSource": "addressBookDB",
     "public": true
   }
 }
