@@ -46,10 +46,10 @@
   },
   "Phone": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "EmailAddress": {
     "dataSource": "db",
-    "public": false
+    "public": true
   }
 }
