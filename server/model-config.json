@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "AddressBook": {
+    "dataSource": "db",
+    "public": true
   }
 }
