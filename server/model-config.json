@@ -35,5 +35,9 @@
   "AddressBook": {
     "dataSource": "db",
     "public": true
+  },
+  "Entry": {
+    "dataSource": "db",
+    "public": true
   }
 }
