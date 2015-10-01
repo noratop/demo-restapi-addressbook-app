@@ -1,8 +1,9 @@
 $(document).ready(function(){
-    $('div').click(function(){
-        $(this).fadeOut('fast');
+    $('#button').click(function(){
+        var toAdd = "hello";
+        $('#result').append("<p>"+toAdd+"</p>");
     });
-    $('div').hover(function(){
+    $('#button').hover(function(){
         $(this).toggleClass('back');
     });
 });
