@@ -43,5 +43,9 @@
   "Address": {
     "dataSource": "db",
     "public": true
+  },
+  "Phone": {
+    "dataSource": "db",
+    "public": false
   }
 }
