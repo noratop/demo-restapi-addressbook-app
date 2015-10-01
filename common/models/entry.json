@@ -25,6 +25,11 @@
       "type": "hasMany",
       "model": "Address",
       "foreignKey": ""
+    },
+    "phones": {
+      "type": "hasMany",
+      "model": "Phone",
+      "foreignKey": ""
     }
   },
   "acls": [],
