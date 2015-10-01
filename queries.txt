@@ -1,0 +1,20 @@
+1.List all entries ordered by first name:
+Filter = {"order": "firstName ASC"}
+
+2.List the first 10 entries ordered by last name
+Filter = {"order": "lastName ASC","limit":"10"}
+
+3.List the second "page" of 10 entries ordered by last name
+Filter = {"order": "lastName ASC","limit":"10","skip": "10"}
+
+4.List all entries where the first name is "John"
+Filter = { "where": {"firstName": "John"} }
+
+5.List all entries where the first name contains "John"
+Filter = { "where": {"firstName": {"like":"%John%"}} }
+
+6.List all address books including their entries
+Filter = {"include": "entries"}
+
+7.List all address books including their entries, as well as all the addresses, emails and phone numbers associated
+Filter = {"include": {"entries":["addresses","phones","emailAddresses"]}}
