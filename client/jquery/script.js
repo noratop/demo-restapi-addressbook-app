@@ -17,7 +17,6 @@ $(document).ready(function(){
     
     $('#addThisEntry').click(function(){
         
-        
         if (!$("input[id=firstName]").val()) {alert("Please enter a first name"); return;}
         if (!$("input[id=lastName]").val()) {alert("Please enter a last name"); return;}
 
@@ -37,16 +36,11 @@ $(document).ready(function(){
             data: JSON.stringify(data),
             contentType:"application/json",
         })
-        .done(function( msg ) {
-            console.log( "Data Saved: " + msg );
-            // msg.forEach(function(entry){
-            //     console.log(entry);
-            //     $('#result').append("<li>"+entry.firstName+" "+entry.lastName+"</li>");
-            // })
+        .done(function(res) {
+            console.log(res);
+            if(res) $('#response').append("<p>"+res.firstName+" "+res.lastName+" has been added to the address book "+res.addressBookId+"</p>");
         });    
     });    
-
-
 
     $('.button').hover(function(){
         $(this).toggleClass('back');

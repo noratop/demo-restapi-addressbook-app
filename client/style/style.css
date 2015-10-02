@@ -6,10 +6,6 @@
     text-decoration: none;
 }
 
-#addThisEntry {
-    text-align:right;
-}
-
 .back {
     background-color: #e5e5e5;
     display: inline-block;
@@ -51,4 +47,8 @@ input {
 
     /* Pour harmoniser l'apparence des bordures des champs textuels */
     border: 1px solid #999;
+}
+
+p {
+    text-align: center;
 }
