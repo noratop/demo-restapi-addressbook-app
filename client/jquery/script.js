@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#button').click(function(){
+    $('div').click(function(){
         var filter = '?filter={"order": "firstName ASC"}'
         $.ajax({
           method: "GET",
@@ -14,7 +14,7 @@ $(document).ready(function(){
             })
         });    
     });
-    $('#button').hover(function(){
+    $('.button').hover(function(){
         $(this).toggleClass('back');
     });
 });
