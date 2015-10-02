@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+#addThisEntry {
+    text-align:right;
+}
+
 .back {
     background-color: #e5e5e5;
     display: inline-block;
@@ -22,12 +26,6 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-}
-
-form button {
-    border: 0;
-    background: none;
-    text-align: center;
 }
 
 form div + div {
