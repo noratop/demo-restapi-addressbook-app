@@ -8,7 +8,7 @@
         <script type='text/javascript' src='jquery/script.js'></script>
 	</head>
 	<body>
-        <form action="/ma-page-de-traitement" method="post">
+        <form>
             <div>
                 <label for="firstNameLabel">First Name :</label>
                 <input type="text" id="firstName" />
@@ -19,11 +19,10 @@
             </div>
             <div>
                 <label for="birthday">birthday :</label>
-                <input type="date" id="birthday" />
+                <input type="date" id="birthday"/>
             </div>
-            
-            <div class="button">
-                <button type="submit">Add entry to the Address Book </button>
+            <div class="button" id="addThisEntry">
+                Add entry to the Address Book
             </div>
         </form>
     </body>
