@@ -10,7 +10,7 @@ var password = auth[1];
 var database = parsed_url.pathname.substring(1);
 
 module.exports = {
-    addressBookDatabase: {
+    addressBookDB: {
         username: username,
         password: password,
         hostname: parsed_url.hostname,
