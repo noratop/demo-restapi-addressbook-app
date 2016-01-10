@@ -5,6 +5,6 @@
   },
   "addressBookDB": {
     "name": "addressBookDB",
-    "connector": "mysql",
+    "connector": "mysql"
   }
 }
