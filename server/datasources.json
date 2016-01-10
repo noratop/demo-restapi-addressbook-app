@@ -6,8 +6,5 @@
   "addressBookDB": {
     "name": "addressBookDB",
     "connector": "mysql",
-    "username":"noratop",
-    "hostname":"0.0.0.0",
-    "database":"addressbook"
   }
 }
